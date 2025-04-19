@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  background: #f0f0f0;
+}
+
+header,
+footer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+img {
+  height: 50px;
+}
+
+main {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  margin: 5px 0;
+  padding: 8px;
+}
+
+button {
+  padding: 10px 15px;
+  background: #0066cc;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+textarea {
+  height: 200px;
+  resize: vertical;
+}
