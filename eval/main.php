@@ -15,7 +15,7 @@ if (!$expression) {
     exit;
 }
 
-// Обработка выражения вида "6 / cot(30)"
+
 if (preg_match('/^([\d\.]+)\s*\/\s*(\w+)\(([\d\.]+)\)$/i', $expression, $matches)) {
     $number = (float)$matches[1];
     $functionName = strtolower($matches[2]);
